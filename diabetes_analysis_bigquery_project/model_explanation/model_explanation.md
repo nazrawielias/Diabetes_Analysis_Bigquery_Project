@@ -1,4 +1,4 @@
-# Diabetes Risk Modeling – Boosted Tree Regressor
+# Diabetes Risk Modeling – Boosted Tree Classifier
 
 ## Problem Statement
 The goal of this project is to analyze diabetes risk using demographic, anthropometric, clinical, and lifestyle data.  
@@ -6,16 +6,16 @@ The goal of this project is to analyze diabetes risk using demographic, anthropo
 ---
 
 ## Model Used
-**Boosted Tree Regressor (BigQuery ML)**
+**Boosted Tree Classifier (BigQuery ML)**
 
 - Framework: Google BigQuery ML
-- Model type: `BOOSTED_TREE_REGRESSOR`
+- Model type: `BOOSTED_TREE_CLASSIFIER`
 - Learning method: Gradient boosting over decision trees
 
 ---
 
-## Why a Boosted Tree Regressor?
-I chose a boosted tree regressor for the following reasons:
+## Why a Boosted Tree Classifier?
+I chose a boosted tree classifier for the following reasons:
 
 - Handles **non-linear relationships** common in medical data (e.g., BMI vs diabetes risk)
 - Automatically captures **feature interactions**
@@ -87,3 +87,4 @@ This aligns with established medical knowledge about diabetes risk factors.
 
 ## Conclusion
 This project demonstrates how boosted tree regression can be used to model diabetes risk in a flexible and interpretable way using BigQuery ML. The approach balances performance with explainability, making it suitable for healthcare-related analytical tasks.
+
